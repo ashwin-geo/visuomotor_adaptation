@@ -1,0 +1,16 @@
+# Files to ignore:
+#	- Specific files or patterns that Git should ignore, such as automatically-generated backup or compilation files.
+# 	- To make an exception to a rule, add a rule preceded by an exclamation mark (!).
+#   - Tips, including use of wildcard operators: https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+
+
+# Images
+*.jpg
+*.png
+
+**/Results/**
+*.pkl
+
+# Pycharm Files
+**/.idea/**
+**/__pycache__/**
